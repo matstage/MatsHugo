@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Vno on Home of Matstage!</title>
+    <link>http://matstage.com/tags/vno/</link>
+    <description>Recent content in Vno on Home of Matstage!</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-uk</language>
+    <lastBuildDate>Thu, 29 Jul 2021 19:47:27 +0300</lastBuildDate><atom:link href="http://matstage.com/tags/vno/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Nix Rocks No 1</title>
+      <link>http://matstage.com/posts/nix-rocks-no-1/</link>
+      <pubDate>Thu, 29 Jul 2021 19:47:27 +0300</pubDate>
+      
+      <guid>http://matstage.com/posts/nix-rocks-no-1/</guid>
+      <description>NixOS is an awesome idea. All your config in one file, more only if you want to!</description>
+    </item>
+    
+  </channel>
+</rss>
