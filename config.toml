@@ -1,4 +1,58 @@
 baseURL = "http://matstage.com/"
 languageCode = "en-uk"
 title = "Home of Matstage!"
-theme = "vno-hugo"
+theme = "ga-hugo-theme"
+
+# Pagination
+paginate = 10
+paginatePath = "page"
+
+[outputs]
+  home = ["HTML", "RSS"]
+
+[menu]
+  [[menu.main]]
+    name = "Projects"
+    identifier = "projects"
+    url = "http://project.matstage.com/"
+    weight = 10
+
+[taxonomies]
+    tag = "nix"
+    
+[params]
+author = "Matstage"
+subtitle = "Suspenseful Tech Learning"
+description = "Matstage gives you suspens that makes you think!"
+welcomeMessage = "Come hear how to always learn more"
+
+# supported colors: blue, green, purple, red, orange or slate. If you need clear, leave it empty.
+coverColor = "blue"
+
+[params.comment]
+disqus = "vno-hugo"
+duoshuo = ""
+
+# Take a look on https://github.com/gitalk/gitalk#usage for more info.
+[params.comment.gitalk]
+ID = ""
+secret = ""
+repo = ""
+owner = ""
+
+[params.social]
+github = "matstage"
+twitter = "@matstage"
+mail = "matstage@matstage.com"
+
+[params.ga]
+ID = "your_ga_id"
+host = "your_host"
+
+# The blog button should not be removed.
+[params.blogButton]
+title = "Watching what you do!"
+description = "Visit blog"
+
+[permalinks]
+posts = "/:year/:month/:title/"
